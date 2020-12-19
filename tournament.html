@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CueSport</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="tournament.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Hammersmith+One&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee&family=Hammersmith+One&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+  </head>
+
+    <body>
+    <header>
+      <div class="brand">
+        <div class="container">
+          <img
+            src="http://onlinesmartschoolsoftware.com/demo/sports24-10-2020/offer_image/logo.jpg"
+            alt="logo"
+          />
+        </div>
+      </div>
+      <nav class="navbar navbar-default" id="nav">
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+
+          <div
+            class="collapse navbar-collapse"
+            id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav" id="navbar-nav">
+              <li style="padding: 5px; margin: 3px;">
+                <a href="#" id="a-link">Home</a>
+              </li>
+              <li class="dropdown" id="dropdown-wrapper"
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  id="head-link"
+                  style="color: white; font-size: 15px; font-weight: 600; padding: 5px; margin: 3px;"
+                  >About CSI<span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu" id="dropdown">
+                  <li><a href="#" id="link">Introduction</a></li>
+                  <li><a href="#" id="link">Shopping</a></li>
+                  <li><a href="#" id="link">Contact</a></li>
+                </ul>
+              </li>
+              <li class="dropdown" id="dropdown-wrapper"
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  id="head-link"
+                  style="color: white; font-size: 15px; font-weight: 600; padding: 5px; margin: 3px;"
+                >Cue Sports<span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu" id="dropdown">
+                  <li><a href="#" id="link">Billiards</a></li>
+                  <li><a href="#" id="link">Snooker</a></li>
+                  <li><a href="#" id="link">Pool</a></li>
+                  <li><a href="#" id="link">Carrom</a></li>
+                  <li><a href="#" id="link">General Tips</a></li>
+                  <li><a href="#" id="link">Equipments</a></li>
+                </ul>
+              </li>
+              <li class="dropdown" id="dropdown-wrapper"
+                  <a
+                  href="#"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  id="head-link"
+                  style="color: white; font-size: 15px; font-weight: 600; padding: 5px; margin: 3px;"
+                  >Rules<span class="caret"></span
+                  ></a>
+                  <ul class="dropdown-menu" id="dropdown">
+                    <li><a href="#" id="link">Billiards</a></li>
+                    <li><a href="#" id="link">Snooker</a></li>
+                    <li><a href="#" id="link">Pool</a></li>
+                    <li><a href="#" id="link">Carrom</a></li>
+                  </ul>
+              </li>
+              <li style="padding: 5px; margin: 3px;">
+                <a href="#" id="a-link">Events</a>
+              </li>
+              <li style="padding: 5px; margin: 3px;">
+                <a href="#" id="a-link">News</a>
+              </li>
+              <li class="dropdown" id="dropdown-wrapper"
+                  <a
+                  href="#"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  id="head-link"
+                  style="color: white; font-size: 15px; font-weight: 600; padding: 5px; margin: 3px;"
+                  >Profiles<span class="caret"></span
+                  ></a>
+                <ul class="dropdown-menu" id="dropdown">
+                  <li><a href="#" id="link">Men Players</a></li>
+                  <li><a href="#" id="link">Women Players</a></li>
+                  <li><a href="#" id="link">Referees</a></li>
+                  <li><a href="#" id="link">Coaches</a></li>
+                </ul>
+              </li>
+              <li class="dropdown" id="dropdown-wrapper"
+                  <a
+                  href="#"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  id="head-link"
+                  style="color: white; font-size: 15px; font-weight: 600; padding: 5px; margin: 3px;"
+                  >Units<span class="caret"></span
+                  ></a>
+                <ul class="dropdown-menu" id="dropdown">
+                  <li><a href="#" id="link">Associations</a></li>
+                  <li><a href="#" id="link">Clubs</a></li>
+                </ul>
+              </li>
+              <li class="dropdown" id="dropdown-wrapper"
+                  <a
+                  href="#"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  id="head-link"
+                  style="color: white; font-size: 15px; font-weight: 600; padding: 5px; margin: 3px;"
+                  >Titles<span class="caret"></span
+                  ></a>
+                <ul class="dropdown-menu" id="dropdown">
+                  <li><a href="#" id="link">National</a></li>
+                  <li><a href="#" id="link">International</a></li>
+                </ul>
+              </li>
+              <li class="dropdown" id="dropdown-wrapper"
+                  <a
+                  href="#"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  id="head-link"
+                  style="color: white; font-size: 15px; font-weight: 600; padding: 5px; margin: 3px;"
+                  >Gallery<span class="caret"></span
+                  ></a>
+                <ul class="dropdown-menu" id="dropdown">
+                  <li><a href="#" id="link">Books</a></li>
+                  <li><a href="#" id="link">Photographs</a></li>
+                  <li><a href="#" id="link">Videos</a></li>
+                </ul>
+              </li> 
+            <ul class="nav navbar-nav navbar-right">
+              <form class="navbar-form navbar-right">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+              </form>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+          <div id="section">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <h2>DEC-17-2020</h2>
+                </div>
+                <div class="col-md-4">
+                  <h2>TEST1</h2>
+                  <p>221B, Baker street, US</p>
+                </div>
+                <div class="col-md-4">
+                  <h2>DEC-23-2020</h2>
+                </div>
+              </div>
+              <hr />
+              <div class="row" style="padding: 5px;">
+                <div class=" col-sm-6 col-md-5">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h2>Details</h2>
+                      <table>
+                        <tbody>
+                          <tr style="background-color: #eee;">
+                            <td class="td">National :-</td>
+                            <td class="td">Billiards</td>
+                          </tr>
+                          <tr>
+                            <td class="td">Last Date Of Entry :-</td>
+                            <td class="td">22-DEC-2020, 5:30pm</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="col-md-12">
+                      <h2>Registration Details</h2>
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>Category</th>
+                            <th>Detail</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr style="background-color: #eee;">
+                            <td class="td">Entry Fee :-</td>
+                            <td class="td">$179</td>
+                          </tr>
+                          <tr>
+                            <td class="td">Bank Name :-</td>
+                            <td class="td">State Bank of India</td>
+                          </tr>
+                          <tr style="background-color: #eee;">
+                            <td class="td">Account Number :-</td>
+                            <td class="td">345678100100</td>
+                          </tr>
+                          <tr>
+                            <td class="td">IFSC Code :-</td>
+                            <td class="td">pnb0100</td>
+                          </tr>
+                          <tr style="background-color: #eee;">
+                            <td class="td">Paytm Number :-</td>
+                            <td class="td">226754312454</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="col-md-12">
+                      <h2>Contact Details</h2>
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>Name</th>
+                            <th>Phone Number</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr style="background-color: #eee;">
+                            <td class="td">Piyush :-</td>
+                            <td class="td">9765231245</td>
+                          </tr>
+                          <tr>
+                            <td class="td">Saksham :-</td>
+                            <td class="td">9897674512</td>
+                          </tr>
+                          <tr style="background-color: #eee;">
+                            <td class="td">Email :-</td>
+                            <td class="td">test@gmail.com</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="col-md-12">
+                      <h2>Draw/Results</h2>
+                      <table>
+                        <tbody>
+                          <tr style="background-color: #eee;">
+                            <td class="td">Draw :-</td>
+                            <td class="td">Draw</td>
+                          </tr>
+                          <tr>
+                            <td class="td">Results :-</td>
+                            <td class="td">Results</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-7">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <img class="img" src="http://onlinesmartschoolsoftware.com/demo/sports24-10-2020/banner/dec4c6fc7ecf8b95ab839666aaa03276.jpg" alt="image" />
+                    </div>
+                    <div class="col-md-12">
+                      <img class="img" src="http://onlinesmartschoolsoftware.com/demo/sports24-10-2020/banner/dec4c6fc7ecf8b95ab839666aaa03276.jpg" alt="image" />
+                    </div>
+                    <div class="col-md-12">
+                      <p class="lead" style="text-align: center;">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere accusantium enim, recusandae porro aliquam at modi earum qui, et quasi repellendus tempore corporis odio atque temporibus dolore cum quod ab!
+                      </p>
+                    </div>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="lead" style="text-align: center;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, distinctio. Deserunt nihil et sequi inventore rerum non voluptas maxime blanditiis saepe odit commodi, nesciunt maiores ducimus deleniti quod, sint dolorem?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="bottom">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <h4 id="tag"><a id="links"><i class="far fa-address-book"></i>Contact Us</a></h4>
+                  <ul>
+                    <li><a id="links"><i class="fas fa-arrow-circle-right"></i>Contact Us</a></li>
+                    <li><a id="links"><i class="fas fa-arrow-circle-right"></i>Site Terms</a></li>
+                    <li><a id="links"><i class="fas fa-arrow-circle-right"></i>Privacy Policy</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <h4 id="tag"><a id="links"><i class="far fa-calendar-alt"></i>Event Category</a></h4>
+                  <ul>
+                    <li><a id="links"><i class="fas fa-angle-right"></i>IBSF</a></li>
+                    <li><a id="links"><i class="fas fa-angle-right"></i>ACBS</a></li>
+                    <li><a id="links"><i class="fas fa-angle-right"></i>National</a></li>
+                    <li><a id="links"><i class="fas fa-angle-right"></i>Invitation</a></li>
+                    <li><a id="links"><i class="fas fa-angle-right"></i>Open Entry</a></li>
+                    <li><a id="links"><i class="fas fa-angle-right"></i>Professional</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <h4 id="tag"><a id="links"><i class="fas fa-futbol"></i>Sports Category</a></h4>
+                  <ul>
+                    <li><a id="links"><i class="fas fa-angle-right"></i>Billiards</a></li>
+                    <li><a id="links"><i class="fas fa-angle-right"></i>ACBS</a></li>
+                    <li><a id="links"><i class="fas fa-angle-right"></i>Snooker</a></li>
+                    <li><a id="links"><i class="fas fa-angle-right"></i>6Red</a></li>
+                    <li><a id="links"><i class="fas fa-angle-right"></i>Pool</a></li>
+                    <li><a id="links"><i class="fas fa-angle-right"></i>Carrom</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <h4 id="tag"><a id="links"><i class="fas fa-link"></i>Links</a></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+          <div class="text-muted" id="foot">
+            <span>© Web Soft Valley 2020. All rights reserved.</span>
+            <span>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </span>
+          </div>
+        </div>
+        </div>
+      </footer>
+  
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script
+        src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"
+      ></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"
+      ></script>
+    </body>
+  </html>
+  
