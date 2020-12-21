@@ -81,7 +81,6 @@ body {
 .dropdown-content a:hover {
   background-color: #00632c;
   color: #feb312;
-  transform: scale(1.1);
 }
 
 .dropdown:hover .dropdown-content {
@@ -251,6 +250,7 @@ section {
 .image {
   width: 100%;
   height: 150px;
+  margin-top: 15px;
 }
 
 h1 {
@@ -297,7 +297,7 @@ hr {
 }
 
 .card-image {
-  height: 150px !important;
+  height: 200px !important;
 }
 
 .news-image {
