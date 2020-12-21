@@ -1,97 +1,16 @@
 img {
   width: 100%;
   height: 100%;
-  padding: 15px;
 }
 
-.img {
-  border-radius: 20px;
-  height: 400px !important;
-}
-
-.col-md-6 {
-  padding: 5px 0 !important;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-div.col-md-5 h2 {
-  padding: 10px !important;
-  color: #004720;
-  font-weight: 900;
-  font-size: 25px;
-  margin: 10px 0;
-}
-
-table {
-  margin: 10px;
-  padding: 5px;
-}
-
-tbody {
-  padding: 5px;
-}
-
-thead {
-  padding: 5px;
-}
-
-th {
-  padding: 10px 10px !important;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-}
-
-td {
-  padding: 10px 10px !important;
-  cursor: pointer;
-}
-
-.td {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-}
-
-.col-md-4 {
-  text-align: center;
-  padding: 20px;
-  font-weight: 900;
-  color: #004720;
-}
-
-.col-md-4 h2 {
+.table-header {
+  color: black !important;
   font-family: Arial, Helvetica, sans-serif !important;
-  font-weight: 900 !important;
-  margin-bottom: 2px;
-  margin-top: 10px;
+  font-size: 35px !important;
 }
 
-.col-md-4 p {
-  margin-top: 20px;
-}
-
-.col-md-4 h4 {
+.ui.stackable.three.column.grid p {
+  font-size: 20px;
+  text-align: center !important;
   font-family: "Bowlby One SC", cursive;
-  margin-bottom: 2px;
-  font-size: 15px;
-}
-
-.col-md-4 h1 {
-  font-family: "Bowlby One SC", cursive;
-  margin-top: 0;
-  font-family: 55px !important;
-}
-
-hr {
-  border: 0 !important;
-  height: 1px !important;
-  background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.75),
-    rgba(0, 0, 0, 0)
-  ) !important;
-  margin-top: 0 !important;
 }

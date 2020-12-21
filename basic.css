@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.pre-header {
+  padding: 20px;
+  background-color: #00632c;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #004720;
+  padding: 10px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 800;
+  transition: color 0.5s linear 0s;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left !important;
+  overflow: hidden !important;
+}
+
+.dropdown .dropbtn {
+  font-size: 15px;
+  font-weight: 800;
+  border: none !important;
+  outline: none !important;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0 !important;
+  transition: color 0.5s linear 0s;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute !important;
+  background-color: #00632c;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1 !important;
+}
+
+.dropdown-content a {
+  float: none !important;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none !important;
+  display: block !important;
+  text-align: left !important;
+  transition: color 0.5s linear 0.1ms;
+  transition: transform 0.3s linear 0s;
+}
+
+.topnav a:hover,
+.dropdown:hover .dropbtn {
+  color: #feb312;
+}
+
+.dropdown-content a:hover {
+  background-color: #00632c;
+  color: #feb312;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block !important;
+}
+
+@media screen and (max-width: 900px) {
+  .topnav a,
+  .dropdown .dropbtn {
+    display: none !important;
+  }
+  .topnav a.icon {
+    float: left !important;
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .topnav.responsive {
+    position: relative !important;
+  }
+  .topnav.responsive .icon {
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block !important;
+    text-align: left !important;
+  }
+  .topnav.responsive .dropdown {
+    float: none !important;
+  }
+  .topnav.responsive .dropdown-content {
+    position: relative !important;
+  }
+  .topnav.responsive .dropdown .dropbtn {
+    display: block !important;
+    width: 100% !important;
+    text-align: left !important;
+  }
+}
+
+.footer-container {
+  background-color: #004720;
+}
+
+#footer-head {
+  color: white !important;
+  font-weight: 800 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  transition: color 0.2s linear 0.1ms;
+}
+
+#footer-head:hover {
+  color: #feb312 !important;
+}
+
+.footer-list {
+  color: white !important;
+  list-style: none !important;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 5px 0;
+}
+
+.footer-list a:hover {
+  color: #feb312 !important;
+}
+
+.footer-list a {
+  text-decoration: none !important;
+  color: white !important;
+  transition: color 0.2s ease-out 0s !important;
+}
+
+.post-footer-container {
+  background-color: #1c2721 !important;
+}
+
+.post-footer-container h5 {
+  color: white !important;
+}
+
+.post-footer-container h5 i {
+  transition: color 0.2s linear 0s;
+}
+
+.post-footer-container h5 i:hover {
+  color: #feb312 !important;
+}
