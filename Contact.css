@@ -1,0 +1,30 @@
+.form-header {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: 900 !important;
+  margin-top: 0 !important;
+}
+
+.form-h4 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: 900 !important;
+  color: #004720;
+}
+
+.form-p {
+  margin: 0 !important;
+  font-size: 17px;
+  font-weight: 900 !important;
+}
+
+.form-link {
+  color: grey;
+  font-size: 15px;
+  text-decoration: none !important;
+  margin-left: 13px;
+}
+
+.form-link:hover {
+  color: #feb312 !important;
+}
