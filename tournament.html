@@ -426,7 +426,14 @@
         </div>
       </div>
     </footer>
+  
+
     <script>
+      src =
+        "https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js";
+      integrity =
+        "sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw==";
+      crossorigin = "anonymous";
       function myFunction() {
         var x = document.getElementById("myTopnav");
         if (x.className === "topnav") {
@@ -434,37 +441,6 @@
         } else {
           x.className = "topnav";
         }
-      }
-
-      var slideIndex = 1;
-      showSlides(slideIndex);
-
-      function plusSlides(n) {
-        showSlides((slideIndex += n));
-      }
-
-      function currentSlide(n) {
-        showSlides((slideIndex = n));
-      }
-
-      function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {
-          slideIndex = 1;
-        }
-        if (n < 1) {
-          slideIndex = slides.length;
-        }
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
       }
     </script>
   </body>
