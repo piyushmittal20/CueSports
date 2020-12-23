@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CueSports</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="homepage.css" />
+    <link rel="stylesheet" href="tournamentlist.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+      integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Ultra&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="pre-header">
+      <div class="ui container">
+        <img
+          class="ui small image"
+          src="http://onlinesmartschoolsoftware.com/demo/sports24-10-2020/offer_image/logo.jpg"
+        />
+      </div>
+    </div>
+    <!-- Navbar -->
+    <div class="topnav" id="myTopnav">
+      <div class="ui container" style="background-color: #004720">
+        <a href="#home">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            About CSI
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Introduction</a>
+            <a href="#">Shopping</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Cue Sports
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Billiards</a>
+            <a href="#">Snooker</a>
+            <a href="#">Pool</a>
+            <a href="#">Carrom</a>
+            <a href="#">Equipments</a>
+            <a href="#">General Tips</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Rules
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Billiards</a>
+            <a href="#">Snooker</a>
+            <a href="#">Pool</a>
+            <a href="#">Carrom</a>
+          </div>
+        </div>
+        <a href="#about">Events</a>
+        <a href="#about">News</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Profiles
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Men Players</a>
+            <a href="#">Women Players</a>
+            <a href="#">Referees</a>
+            <a href="#">Coaches</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Units
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Associations</a>
+            <a href="#">Clubs</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Titles
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">National</a>
+            <a href="#">International</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Gallery
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Books</a>
+            <a href="#">Photographs</a>
+            <a href="#">Videos</a>
+          </div>
+        </div>
+        <div class="ui fluid category search" id="search">
+          <div
+            style="float: right !important; padding: 5px"
+            class="ui icon input"
+          >
+            <input class="prompt" type="text" placeholder="Search..." />
+          </div>
+          <div class="results"></div>
+        </div>
+        <a
+          href="javascript:void(0);"
+          style="font-size: 15px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </div>
+    </div>
+
+    <section>
+      <div class="ui container">
+        <h1>Tournaments List</h1>
+        <div class="ui stackable grid">
+          <div class="ten wide column">
+            <div class="ui stackable grid">
+              <div class="eight wide column">
+                <h3>All Tournaments</h3>
+              </div>
+              <div class="eight wide column">
+                <select class="ui dropdown">
+                  <option value="0">Country</option>
+                  <option value="1">India</option>
+                  <option value="2">USA</option>
+                  <option value="3">Germany</option>
+                </select>
+              </div>
+            </div>
+            <table class="ui striped table">
+              <thead>
+                <tr>
+                  <th>S.NO.</th>
+                  <th>Date</th>
+                  <th>Event</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>September 14, 2021</td>
+                  <td>
+                    <a href="#">All India 6Reds and Snooker championship</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>January 11, 2021</td>
+                  <td>
+                    <a href="#"
+                      >International Pool and carrom championship (Delhi)</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>September 14, 2021</td>
+                  <td>
+                    <a href="#">All India 6Reds and Snooker championship</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>September 14, 2021</td>
+                  <td>
+                    <a href="#">All India 6Reds and Snooker championship</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>September 14, 2021</td>
+                  <td>
+                    <a href="#">All India 6Reds and Snooker championship</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="six wide column">
+            <div class="ui grid">
+              <div class="eight wide column">
+                <div class="image color">
+                  <a href="#">
+                    <img class="image" src="img/img2.jpeg" />
+                    <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="eight wide column">
+                <div class="image color">
+                  <a href="#">
+                    <img class="image" src="img/img3.jpeg" />
+                    <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="eight wide column">
+                <div class="image color">
+                  <a href="#">
+                    <img class="image" src="img/img3.jpeg" />
+                    <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="eight wide column">
+                <div class="image color">
+                  <a href="#">
+                    <img class="image" src="img/img3.jpeg" />
+                    <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="eight wide column">
+                <div class="image color">
+                  <a href="#">
+                    <img class="image" src="img/img3.jpeg" />
+                    <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="eight wide column">
+                <div class="image color">
+                  <a href="#">
+                    <img class="image" src="img/img3.jpeg" />
+                    <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="ui container">
+          <div class="ui four column stackable grid">
+            <div class="column">
+              <h2 class="ui-header" id="footer-head">
+                <i class="phone icon"></i>Contact Us
+              </h2>
+              <ul>
+                <li class="footer-list">
+                  <a href="#"
+                    ><i class="arrow alternate circle right icon"></i>Contact
+                    Us</a
+                  >
+                </li>
+                <li class="footer-list">
+                  <a href="#"
+                    ><i class="arrow alternate circle right icon"></i>Privacy
+                    Policy</a
+                  >
+                </li>
+                <li class="footer-list">
+                  <a href="#"
+                    ><i class="arrow alternate circle right icon"></i>Site
+                    Terms</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="column">
+              <h2 class="ui-header" id="footer-head">
+                <i class="calendar alternate outline icon"></i>Event Category
+              </h2>
+              <ul>
+                <li class="footer-list">
+                  <a href="#"><i class="arrow right icon"></i>IBSF</a>
+                </li>
+                <li class="footer-list">
+                  <a href="#"><i class="arrow right icon"></i>ACBS</a>
+                </li>
+                <li class="footer-list">
+                  <a href="#"><i class="arrow right icon"></i>National</a>
+                </li>
+                <li class="footer-list">
+                  <a href="#"><i class="arrow right icon"></i>Open Entry</a>
+                </li>
+                <li class="footer-list">
+                  <a href="#"><i class="arrow right icon"></i>Invitation</a>
+                </li>
+                <li class="footer-list">
+                  <a href="#"><i class="arrow right icon"></i>Professional</a>
+                </li>
+              </ul>
+            </div>
+            <div class="column">
+              <h2 class="ui-header" id="footer-head">
+                <i class="futbol icon"></i>Sports Category
+              </h2>
+              <ul>
+                <li class="footer-list">
+                  <a href="#"><i class="arrow right icon"></i>Billiards</a>
+                </li>
+                <li class="footer-list">
+                  <a href="#"><i class="arrow right icon"></i>ACBS</a>
+                </li>
+                <li class="footer-list">
+                  <a href="#"><i class="arrow right icon"></i>Snooker</a>
+                </li>
+                <li class="footer-list">
+                  <a href="#"><i class="arrow right icon"></i>6Red</a>
+                </li>
+                <li class="footer-list">
+                  <a href="#"><i class="arrow right icon"></i>Pool</a>
+                </li>
+                <li class="footer-list">
+                  <a href="#"><i class="arrow right icon"></i>Carrom</a>
+                </li>
+              </ul>
+            </div>
+            <div class="column">
+              <h2 class="ui-header" id="footer-head">
+                <i class="linkify icon"></i>Links
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="post-footer-container">
+        <div class="ui container">
+          <div class="ui two column stackable grid">
+            <div class="left floated column">
+              <h5>© Web Soft Valley 2020. All rights reserved.</h5>
+            </div>
+            <div class="right floated column">
+              <h5 style="float: right; padding: 3px">
+                <i class="facebook icon"></i>
+              </h5>
+              <h5 style="float: right; padding: 3px">
+                <i class="youtube icon"></i>
+              </h5>
+              <h5 style="float: right; padding: 3px">
+                <i class="instagram icon"></i>
+              </h5>
+              <h5 style="float: right; padding: 3px">
+                <i class="twitter icon"></i>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      src =
+        "https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js";
+      integrity =
+        "sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw==";
+      crossorigin = "anonymous";
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+td a {
+  color: black;
+  transition: 0.4s;
+}
+
+td a:hover {
+  color: #feb312;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 35px !important;
+}
+
+h3 {
+  color: grey !important;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+h3:hover {
+  color: #feb312 !important;
+}
+
+select {
+  width: 200px !important;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+* {
+  transition: 0.5s;
+}
