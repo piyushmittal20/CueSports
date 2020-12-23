@@ -116,11 +116,11 @@
             <a href="#">Videos</a>
           </div>
         </div>
-        <div class="ui fluid category search" id="search">
-          <div style="float: right !important; padding: 5px;" class="ui icon input">
-            <input class="prompt" type="text" placeholder="Search...">
-          </div>
-          <div class="results"></div>
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
         </div>
         <a
           href="javascript:void(0);"
@@ -145,9 +145,10 @@
               OUR BLOOD, OUR SWEAT,
               <br />
               YOUR TEARS - <span>CLUB MOTO</span>
-              </h2>
-              <br />
-          <button id="button" class="ui green button">Read More</button>
+            </h2>
+        </div>
+        <div class="text" id="slide-text2">
+          <a href="#" class="btn">Read More</a>
         </div>
       </div>
 
@@ -157,15 +158,16 @@
           src="http://onlinesmartschoolsoftware.com/demo/sports24-10-2020/blog/fill-2.jpg"
           style="width: 100%"
         />
-        <div class="text" style="bottom: 280px !important;">
+        <div class="text" id="slide-text">
           <h2 class="slideshow-head">
             OUR BLOOD, OUR SWEAT,
             <br />
             YOUR TEARS - <span>CLUB MOTO</span>
-            </h2>
-            <br />
-        <button id="button" class="ui green button">Read More</button>
-      </div>
+          </h2>
+        </div>
+        <div class="text" id="slide-text2">
+          <a href="#" class="btn">Read More</a>
+        </div>
       </div>
 
       <div class="mySlides fade">
@@ -174,15 +176,17 @@
           src="http://onlinesmartschoolsoftware.com/demo/sports24-10-2020/blog/fill-2.jpg"
           style="width: 100%"
         />
-        <div class="text" style="bottom: 280px !important;">
+        <div class="text" id="slide-text">
           <h2 class="slideshow-head">
             OUR BLOOD, OUR SWEAT,
             <br />
             YOUR TEARS - <span>CLUB MOTO</span>
-            </h2>
-            <br />
-        <button id="button" class="ui green button">Read More</button>
-      </div>
+          </h2>
+        </div>
+        <div class="text" id="slide-text2">
+          <a href="#" class="btn">Read More</a>
+        </div>
+
       </div>
 
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>

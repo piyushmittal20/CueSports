@@ -390,6 +390,10 @@ hr {
   letter-spacing: 2px;
   font-weight: 900 !important;
   font-family: Arial, Helvetica, sans-serif !important;
+  float: left;
+  text-align: left;
+  margin-left: 40px;
+  transition: 0.5s;
 }
 
 .slideshow-head span {
@@ -440,7 +444,28 @@ div.image:hover i {
 }
 
 #slide-text {
-  bottom: 280px !important;
+  bottom: 300px !important;
+}
+
+#slide-text2 {
+  bottom: 110px !important;
+}
+
+#slide-text2 .btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #328432;
+  border: 1px solid #328432;
+  border-radius: 5px;
+  padding: 10px 30px;
+  float: left;
+  text-align: left;
+  margin-left: 40px;
+  transition: 0.5s;
+}
+
+#slide-text2 .btn:hover {
+  letter-spacing: 3px;
 }
 
 @media screen and (max-width: 600px) {
@@ -450,5 +475,41 @@ div.image:hover i {
   body {
     margin: 0 !important;
     padding: 0 !important;
+  }
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width: 160px;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button.active,
+.topnav .search-container button:active,
+.topnav .search-container button:hover {
+  background: #ccc;
+  border: none !important;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: right;
   }
 }
