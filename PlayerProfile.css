@@ -1,0 +1,43 @@
+.h3tag {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800 !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.h4tag {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.h4tag:hover {
+  color: #feb312;
+}
+
+img {
+  width: 100%;
+  height: 500px;
+}
+
+.h2tag {
+  color: black !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.fa-instagram,
+.fa-facebook,
+.fa-twitter {
+  color: black;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.fa-instagram:hover,
+.fa-facebook:hover,
+.fa-twitter:hover {
+  color: #feb312;
+}
