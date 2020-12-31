@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+
 body {
   margin: 0;
   padding: 0;
@@ -27,7 +29,8 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 15px;
-  font-weight: 800;
+  font-weight: 700;
+  font-family: "Oswald", sans-serif;
   transition: color 0.5s linear 0s;
 }
 
@@ -38,11 +41,14 @@ body {
 .dropdown {
   float: left !important;
   overflow: hidden !important;
+  font-weight: 700;
+  font-family: "Oswald", sans-serif;
 }
 
 .dropdown .dropbtn {
   font-size: 15px;
-  font-weight: 800;
+  font-weight: 700;
+  font-family: "Oswald", sans-serif;
   border: none !important;
   outline: none !important;
   color: white;
@@ -69,6 +75,8 @@ body {
   text-decoration: none !important;
   display: block !important;
   text-align: left !important;
+  font-weight: 700;
+  font-family: "Oswald", sans-serif;
   transition: color 0.5s linear 0.1ms;
   transition: transform 0.3s linear 0s;
 }
@@ -254,16 +262,20 @@ section {
 
 h1 {
   color: #004720 !important;
-  font-family: "Alfa Slab One", cursive !important;
+  font-family: "Oswald", sans-serif !important;
+  font-weight: 700 !important;
 }
 
 h2 {
   color: #004720 !important;
-  font-family: "Alfa Slab One", cursive !important;
+  font-family: "Oswald", sans-serif !important;
+  font-weight: 400 !important;
 }
 
 h3 {
   margin: 10px 0 !important;
+  font-family: "Oswald", sans-serif !important;
+  font-weight: 400 !important;
 }
 
 h3 a:hover {
@@ -276,6 +288,8 @@ h3 a:hover {
 
 h4 {
   margin: 2px 0 !important;
+  font-family: "Oswald", sans-serif !important;
+  font-weight: 400 !important;
 }
 
 h5 {
@@ -306,12 +320,14 @@ hr {
 
 .footer-container {
   background-color: #004720;
+  font-weight: 700;
+  font-family: "Oswald", sans-serif;
 }
 
 #footer-head {
   color: white !important;
-  font-weight: 800 !important;
-  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: 700 !important;
+  font-family: "Oswald", sans-serif !important;
   transition: color 0.2s linear 0.1ms;
 }
 

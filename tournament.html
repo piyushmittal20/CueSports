@@ -7,7 +7,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="basic.css" />
+    <link rel="stylesheet" href="homepage.css" />
     <link rel="stylesheet" href="tournament.css" />
     <link
       rel="stylesheet"
@@ -127,14 +127,11 @@
             <a href="#">Videos</a>
           </div>
         </div>
-        <div class="ui fluid category search" id="search">
-          <div
-            style="float: right !important; padding: 5px"
-            class="ui icon input"
-          >
-            <input class="prompt" type="text" placeholder="Search..." />
-          </div>
-          <div class="results"></div>
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
         </div>
         <a
           href="javascript:void(0);"
@@ -151,27 +148,27 @@
         <div class="ui stackable three column grid" style="margin-bottom: 20px">
           <div class="column">
             <p style="color: #004720;">
-              <span style="font-size: 15px">DECEMBER</span>
+              <span style="font-size: 22px; font-weight: 700;">DECEMBER</span>
               <br />
-              <span style="font-size: 40px">28</span>
+              <span id="date-span">28</span>
               <br />
-              2020
+              <span id="date">2020</span>
             </p>
           </div>
           <div class="column">
             <p style="color: #004720;">
-              <span style="font-size: 30px;">Billiards</span>
+              <span style="font-size: 25px !important; font-weight: 700 !important;">Billiards</span>
               <br />
-             <p style="margin-top: 15px; color:#004720;"> 221B, Baker Street, U.S</p>
+            <p style="color:#004720; font-weight: 700;"> 221B, Baker Street, U.S</p>
             </p>
           </div>
           <div class="column">
             <p style="color: #c70707;">
-              <span style="font-size: 15px">DECEMBER</span>
+              <span style="font-size: 22px; font-weight: 700;">DECEMBER</span>
               <br />
-              <span style="font-size: 40px">28</span>
+              <span id="date-span">28</span>
               <br />
-              2020
+              <span id="date">2020</span>
             </p>
           </div>
         </div>
@@ -184,12 +181,12 @@
                 <table class="ui striped table">
                   <tbody>
                     <tr>
-                      <td>National</td>
-                      <td>Billiards</td>
+                      <td id="left-row">National</td>
+                      <td id="right-row">Billiards</td>
                     </tr>
                     <tr>
-                      <td>Last Date of Entry</td>
-                      <td>January 11, 2021</td>
+                      <td id="left-row">Last Date of Entry</td>
+                      <td id="right-row">January 11, 2021</td>
                     </tr>
                   </tbody>
                 </table>
@@ -205,24 +202,24 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Entry Fee</td>
-                      <td>Date Joined</td>
+                      <td id="left-row">National</td>
+                      <td id="right-row">Billiards</td>
                     </tr>
                     <tr>
-                      <td>Bank Name</td>
-                      <td>September 14, 2013</td>
+                      <td id="left-row">National</td>
+                      <td id="right-row">Billiards</td>
                     </tr>
                     <tr>
-                      <td>Account No.</td>
-                      <td>January 11, 2014</td>
+                      <td id="left-row">National</td>
+                      <td id="right-row">Billiards</td>
                     </tr>
                     <tr>
-                      <td>IFSC Code</td>
-                      <td>September 14, 2013</td>
+                      <td id="left-row">National</td>
+                      <td id="right-row">Billiards</td>
                     </tr>
                     <tr>
-                      <td>Paytm Number</td>
-                      <td>January 11, 2014</td>
+                      <td id="left-row">National</td>
+                      <td id="right-row">Billiards</td>
                     </tr>
                   </tbody>
                 </table>

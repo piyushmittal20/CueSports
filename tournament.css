@@ -1,3 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:wght@700&display=swap");
+
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+#date-span {
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 52px;
+}
+
+#date {
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 28px;
+}
+
+#left-row {
+  color: #2b2b2b;
+}
+
+#right-row {
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: #828282;
+}
+
 img {
   width: 100%;
   height: 100%;
@@ -5,12 +31,12 @@ img {
 
 .table-header {
   color: black !important;
-  font-family: Arial, Helvetica, sans-serif !important;
+  font-family: "Oswald", sans-serif !important;
   font-size: 35px !important;
 }
 
 .ui.stackable.three.column.grid p {
   font-size: 20px;
   text-align: center !important;
-  font-family: "Bowlby One SC", cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
