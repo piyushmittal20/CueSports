@@ -411,6 +411,23 @@ hr {
   transition: 0.5s;
 }
 
+@media screen and (max-width: 700px) {
+  .slideshow-head {
+    font-size: 23px !important;
+    font-weight: 700 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+  }
+  #slide-text {
+    bottom: 300px !important;
+  }
+  #slide-text2 {
+    bottom: 130px !important;
+  }
+  img {
+    height: 400px;
+  }
+}
+
 .slideshow-head span {
   color: #feb312 !important;
 }
@@ -459,11 +476,11 @@ div.image:hover i {
 }
 
 #slide-text {
-  bottom: 300px !important;
+  bottom: 300px;
 }
 
 #slide-text2 {
-  bottom: 110px !important;
+  bottom: 110px;
 }
 
 #slide-text2 .btn {
@@ -481,16 +498,6 @@ div.image:hover i {
 
 #slide-text2 .btn:hover {
   letter-spacing: 3px;
-}
-
-@media screen and (max-width: 600px) {
-  #slide-text {
-    bottom: 150px !important;
-  }
-  body {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
 }
 
 .topnav .search-container {
